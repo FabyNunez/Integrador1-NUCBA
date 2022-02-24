@@ -16,10 +16,10 @@
                 </label>
                 <input type="checkbox" class="change" name="change" id="change">
                 <ul>
-                    <li><a href="./login/index.html">Iniciar Sesión</a></li>
-                    <li><a href="#Nosotros">Sobre Nosotros</a></li>
-                    <li><a href="#carouselExampleCaptions">Paseos</a></li>
-                    <li><a href="#Contacto">Contacto</a></li>
+                    <li><a class="enlace" href="./login/index.html">Iniciar Sesión</a></li>
+                    <li><a class="enlace" href="#Nosotros">Sobre Nosotros</a></li>
+                    <li><a class="enlace" href="#carouselExampleCaptions">Paseos</a></li>
+                    <li><a class="enlace" href="#Contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,7 +56,7 @@
                 <img onclick="redireccionar('SaltoEncantado');" src="./imagenes/salto encantado1.jpg" class="d-block"alt="Salto Encantado. Aristobulo del Valle. Misiones. Argentina">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="titulo">Salto Encantado</h5>
-                  <p>Es un complejo turístico ubicado en el Municipio de Salto Encantado, en el departamento misionero de Cainguás. Se encuentra dentro del Parque provincial Salto Encantado del Valle del Arroyo Cuñá Pirú, un área protegida de 13.227 hectáreas.</p>
+                  <p class="texto">Es un complejo turístico ubicado en el Municipio de Salto Encantado, en el departamento misionero de Cainguás. Se encuentra dentro del Parque provincial Salto Encantado del Valle del Arroyo Cuñá Pirú, un área protegida de 13.227 hectáreas.</p>
                   <a type="button" href="./SaltoEncantado/" class="btn btn-outline-info">Saber Mas</a>
                 </div>
               </div>
@@ -64,7 +64,7 @@
                 <img src="./imagenes/cataratas1.jpg" class="d-block" alt="Parque Nacional Iguazu. Iguazu. Misiones">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="titulo">Cataratas del Iguazu</h5>
-                  <p>Son un conjunto de cataratas que se localizan sobre el río Iguazú, en el límite entre la provincia argentina de Misiones y el estado brasileño de Paraná.</p>
+                  <p class="texto">Son un conjunto de cataratas que se localizan sobre el río Iguazú, en el límite entre la provincia argentina de Misiones y el estado brasileño de Paraná.</p>
                   <button type="button" class="btn btn-outline-info">Saber Mas</button>
                 </div>
               </div>
@@ -72,7 +72,7 @@
                 <img src="./imagenes/san ignacio1.jpg" class="d-block" alt="Ruinas de San Ignacio. San Ignacio. Misiones">
                 <div class="carousel-caption d-none d-md-block">
                   <h5 class="titulo">Ruinas de San Ignacio</h5>
-                  <p class="tecto">Una misión jesuítica fundada a comienzos del siglo XVII para evangelizar a los nativos guaraníes. Se encuentran en la actual localidad de San Ignacio, en la provincia argentina de Misiones.</p>
+                  <p class="texto">Una misión jesuítica fundada a comienzos del siglo XVII para evangelizar a los nativos guaraníes. Se encuentran en la actual localidad de San Ignacio, en la provincia argentina de Misiones.</p>
                   <button type="button" class="btn btn-outline-info">Saber Mas</button>
                 </div>
               </div>
@@ -128,7 +128,7 @@
                         </div>
                         <div class="contenedor-input">
                           <label for="text">Mensaje</label>
-                          <textarea class="texto" name="mensaje" id="text" cols="35" rows="6" placeholder="Ingrese su mensaje"></textarea>
+                          <textarea class="mensaje" name="mensaje" id="text" placeholder="Ingrese su mensaje"></textarea>
                         </div>
                         <button class="boton1" type="button">Enviar</button>
                     </form>
