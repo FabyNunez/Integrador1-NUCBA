@@ -1,0 +1,170 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Bangers&family=Estonia&family=Fruktur&family=Fuzzy+Bubbles:wght@700&family=Inconsolata:wght@700&family=Luxurious+Roman&family=Noto+Serif:ital@1&family=Nunito:wght@600&family=PT+Serif&family=Short+Stack&family=Syne+Tactile&display=swap" rel="stylesheet">
+        <link href="./icono/fontawesome-free-6.0.0-web/css/all.css" rel="stylesheet">
+        <title>Sentir Misiones</title>
+           <header>
+            <nav>
+                <img class="zoom" src="./imagenes/SentirMisionesLogo.jpg">
+                <label for="change">
+                    <i class="fa-solid fa-bars icono-menu"></i>
+                </label>
+                <input type="checkbox" class="change" name="change" id="change">
+                <ul>
+                    <li><a href="./login/index.html">Iniciar Sesión</a></li>
+                    <li><a href="#Nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#carouselExampleCaptions">Paseos</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </head>
+    <body class="generalBody">
+          <div class="divBody">
+              <div class="cuadrado" id="Nosotros">
+                <img class="imagen1"  src="./imagenes/cataratas2.jpg" >
+                <p class="texto1"> Aunque se trata de un destino consolidado internacionalmente por su "maravilla", la provincia de Misiones se ha convertido en un lugar para visitar, por lo menos, dos veces.</p>
+              </div>
+    
+            <div class="cuadrado1" id="Nosotros">
+              <p class="texto2"> Por eso, decidimos crear una pagina con los destinos que posee la provincia; para animarte a conocerla. En este espacio pretendemos brindarte información, no solo de los destinos; sino también de hospedajes, comidas típicas y todo lo necesario para que planfiques un viaje cómodo y placentero.</p>
+              <img class="imagen2" src="./imagenes/turismo2.jpg" alt="">
+              </div>
+    
+              <div class="cuadrado2" id="Nosotros">
+                <img class="imagen3" src="./imagenes/comidastipicas1.jpg">
+                <p class="texto3"> En este espacio pretendemos brindarte información no solo de los destinos; sino también de hospedajes, comidas típicas y todo lo necesario para que planfiques un viaje cómodo y placentero.</p>
+              </div>
+          </div>
+        
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img onclick="redireccionar('SaltoEncantado');" src="./imagenes/salto encantado1.jpg" class="d-block"alt="Salto Encantado. Aristobulo del Valle. Misiones. Argentina">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Salto Encantado</h5>
+                  <p>Es un complejo turístico ubicado en el Municipio de Salto Encantado, en el departamento misionero de Cainguás. Se encuentra dentro del Parque provincial Salto Encantado del Valle del Arroyo Cuñá Pirú, un área protegida de 13.227 hectáreas.</p>
+                  <a type="button" href="./SaltoEncantado/" class="btn btn-outline-info">Saber Mas</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/cataratas1.jpg" class="d-block" alt="Parque Nacional Iguazu. Iguazu. Misiones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Cataratas del Iguazu</h5>
+                  <p>Son un conjunto de cataratas que se localizan sobre el río Iguazú, en el límite entre la provincia argentina de Misiones y el estado brasileño de Paraná.</p>
+                  <button type="button" class="btn btn-outline-info">Saber Mas</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/san ignacio1.jpg" class="d-block" alt="Ruinas de San Ignacio. San Ignacio. Misiones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Ruinas de San Ignacio</h5>
+                  <p class="tecto">Una misión jesuítica fundada a comienzos del siglo XVII para evangelizar a los nativos guaraníes. Se encuentran en la actual localidad de San Ignacio, en la provincia argentina de Misiones.</p>
+                  <button type="button" class="btn btn-outline-info">Saber Mas</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/mocona1.jpg" class="d-block" alt="Saltos del Moconá. El Soberbio. Misiones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Saltos del Moconá</h5>
+                  <p class="texto">Son unas cataratas que oscilan entre 5 m y 10 m de altura, que interrumpen durante unos 3 km el curso del río Uruguay en la frontera entre Brasil y Argentina.</p>
+                  <button type="button" class="btn btn-outline-dark">Saber Mas</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/cruzsantaana1.jpg" class="d-block" alt="Parque Provincial La Cruz. Santa Ana. Misiones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Parque Temático La Cuz</h5>
+                  <p class="texto">El Parque Temático de la Cruz se encuentra sobre el cerro Santa Ana, a 360 metros de altura sobre el nivel del mar. Se desarrolla en un predio de 57,5 hectáreas de puro monte nativo misionero, con vertientes de agua, especies arbóreas autóctonas, aves de la zona y miradores naturales.</p>
+                  <button type="button" class="btn btn-outline-info">Saber Mas</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/termas1.jpg" class="d-block" alt="Termas de Oberá. Oberá. Misiones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="titulo">Parque de la Selva</h5>
+                  <p class="texto">En un predio natural de 8 hectáreas, en un entorno de abundante vegetación, plantaciones de yerba mate y diversas especies nativas de la Selva Paranaense se encuentra el Parque de la Selva.</p>
+                  <button type="button" class="btn btn-outline-info">Saber Mas</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="contenedor">
+            <div class="recuadro">
+                <div class="contenedor-formulario">
+                    <form id="Contacto">
+                        <div class="contenedor-input">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" placeholder="Ingrese su e-mail">
+                        </div>
+                        <div class="contenedor-input">
+                            <label for="asunto">Asunto</label>
+                            <input type="asunto" id="asunto" placeholder="Asunto">
+                        </div>
+                        <div class="contenedor-input">
+                          <label for="text">Mensaje</label>
+                          <textarea class="texto" name="mensaje" id="text" cols="35" rows="6" placeholder="Ingrese su mensaje"></textarea>
+                        </div>
+                        <button class="boton1" type="button">Enviar</button>
+                    </form>
+                </div>
+                <div class="contenedor-imagen">
+
+                </div>
+            </div>
+        </div>
+        <footer class="pie">
+            <a class="iconos" href="https://www.instagram.com/fabiana.nunez.1848/">
+              <img src="./imagenes/instagram-blanco-negro.png" 
+                  onmouseover="this.src='./imagenes/instagram-color.png'" 
+                  onmouseout="this.src='./imagenes/instagram-blanco-negro.png'" atributo="atributo" alt="instagram fabiana">
+            </a>
+
+            <a class="iconos" href="https://www.facebook.com/fabiana.nunez.1848">
+              <img src="./imagenes/facebook-blancoynegro.png" 
+                  onmouseover="this.src='./imagenes/facebook-color.png'" 
+                  onmouseout="this.src='./imagenes/facebook-blancoynegro.png'" atributo="atributo1" alt="facebook fabiana">
+            </a>
+
+            <a class="iconos" href="https://github.com/FabyNunez">
+              <img src="./imagenes/git-BN.png" 
+                  onmouseover="this.src='./imagenes/git-color.png'" 
+                  onmouseout="this.src='./imagenes/git-BN.png'" atributo="atributo" alt="GitHub fabiana">
+            </a>
+          
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    <script>
+      function redireccionar(link) {
+        //location.href ='./'+link+'/'
+        location.href = `./${link}/`
+
+      }
+    </script>
+</html>
