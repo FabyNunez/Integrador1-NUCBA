@@ -1,10 +1,12 @@
 .body {
     background-image: url(./imagen/tucan4.jpg);
+    background-position: center center;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
     letter-spacing: 0.6px;
     font-size: 16px;
+    margin: 0%;
 }
 
 .contenedor {
